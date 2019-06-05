@@ -13,8 +13,8 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #1E8BE0;
+  border: 1px solid #1E8BE0;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -87,12 +87,27 @@
   }
 }
 
+
+
+.techno-section {
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 72px);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.3)), color-stop(75%, rgba(22, 22, 22, 0.7)), to(#161616)), url("../img/techno-masthead.png");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/techno-masthead.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.techno-section p {
+  margin-bottom: 5rem;
+}
+
+
 .masthead {
-  position: relative;
-  width: 100%;
-  height: auto;
-  min-height: 35rem;
-  padding: 15rem 0;
+padding-top: 10rem;
+  padding-bottom: calc(10rem - 72px);
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.3)), color-stop(75%, rgba(22, 22, 22, 0.7)), to(#161616)), url("../img/techno-masthead.png");
   background: linear-gradient(to bottom, rgba(22, 22, 22, 0.3) 0%, rgba(22, 22, 22, 0.7) 75%, #161616 100%), url("../img/techno-masthead.png");
   background-position: center;
@@ -300,7 +315,7 @@
 }
 
 body {
-  font-family: 'Nunito';
+  font-family: 'Lato', sans-serif;
   letter-spacing: 0.0625em;
 }
 
